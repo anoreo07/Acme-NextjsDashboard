@@ -3,14 +3,6 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Acme Inc - Next.js Learn Dashboard',
-  description:
-    'Welcome to the Acme Inc dashboard example for the Next.js Learn Course.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
-};
 
 export default function Page() {
   return (
